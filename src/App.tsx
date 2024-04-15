@@ -1,5 +1,5 @@
 import React, { FC, useContext, useEffect } from 'react';
-import { ThemeContext } from 'components';
+import { Header, ThemeContext } from 'components';
 import styles from './App.module.scss';
 
 const App: FC = () => {
@@ -14,6 +14,7 @@ const App: FC = () => {
 
     return (
         <div className='App'>
+            <Header />
             <h1 className={styles.heading}>App</h1>
             <button onClick={() => toggleTheme()}>Toggle theme</button>
         </div>

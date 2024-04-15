@@ -41,6 +41,9 @@
                 "paths": ["."]
             }
         },
+        "import/parsers": {
+            "@typescript-eslint/parser": [".ts", ".tsx"]
+        },
         "react": {
             "pragma": "React",
             "version": "detect"
