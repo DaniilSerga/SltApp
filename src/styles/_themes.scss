@@ -1,0 +1,11 @@
+@use '_colors' as *;
+
+html[data-theme="light"] {
+  --background-color: #{$lotion};
+  --color: #{$chineseBlack};
+}
+
+html[data-theme="dark"] {
+  --background-color: #{$chineseBlack};
+  --color: #{$lotion};
+}
